@@ -270,6 +270,7 @@ namespace Revit.Elements
             // or transactions and which must necessarily be threaded in a specific way.
         }
 
+        // YouTrack task for expanding this list: http://adsk-oss.myjetbrains.com/youtrack/issue/MAGN-6275
         internal bool IsConvertableParameterType(ParameterType paramType)
         {
             return paramType == ParameterType.Length || paramType == ParameterType.Area ||
